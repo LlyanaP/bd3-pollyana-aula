@@ -7,4 +7,8 @@ const collection = 'LIVRARIA'
 /* Criar ou Acessar o Banco de Dados */
 use(database);
 
-db[collection].find({"autor":"Isaac Asimov"});
+/*Altera os dados de um documento da collection*/
+db[collection].updateMany(
+    {autor:'J.R.R Tolkien'},
+    { $set:{autor:'Jonh Ronald Reuel Tolkien'}}
+)

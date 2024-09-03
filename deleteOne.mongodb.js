@@ -7,5 +7,6 @@ const collection = 'LIVRARIA'
 /* Criar ou Acessar o Banco de Dados */
 use(database);
 
-/*Altera os dados de um documento da collection*/
-db[collection].updateOne()
+db[collection].deleteMany(
+    {autor:'Isaac Asimov'}
+);
