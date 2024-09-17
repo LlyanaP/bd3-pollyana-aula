@@ -10,6 +10,24 @@ use(database);
 /* Insere um registro na coleção de dados*/
 db[collection].insertMany(    
     [
+      {
+        "codigo":"1",
+        "titulo": "As Cavernas de Aço",
+        "autor": "Isaac Asimov",
+        "descricao": "As Cavernas de Aço, de Isaac Asimov, é o primeiro romance da consagrada Série dos Robôs, uma das mais populares da ficção científica. A história nasceu de um desafio: Asimov queria provar para seu editor que a ficção científica não era limitada e poderia ser incorporada a qualquer gênero literário, inclusive nos dramas policiais.",
+        "imagem":"/livros/cavernas_aco.jpg",
+        "valor": 120,
+        "categoria":"Ficção Científica"
+      },
+      {
+        "codigo":"2",
+        "titulo": "O Sol Desvelado",
+        "autor": "Isaac Asimov",
+        "descricao": "Um homem morto, um robô danificado e um crime sem solução. Convocado para uma reunião em Washington, Elijah Baley descobre que foi escalado para investigar um novo crime. Desta vez, porém, o policial deverá deixar a segurança da Terra e enfrentar sua fobia de espaços abertos.",
+        "imagem":"/livros/sol_desvelado.jpg",
+        "valor": 100,
+        "categoria":"Ficção Científica"
+        },
         {
             "codigo":"3",
             "titulo": "Os Robôs da Alvorada",
